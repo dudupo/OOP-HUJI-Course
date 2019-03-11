@@ -50,13 +50,18 @@ public class Library {
     protected int	addBookToLibrary(Book book)
     {
 
-        if (this.currentBookCapacity >= this.maxBookCapacity)
-            return -1;
+        int bookId =  this.getBookId(book);
 
+        if (bookId >= 0)
+            return bookId;
+
+        if (this.currentBookCapacity >= this.maxBookCapacity) {
+            return -1;
+        }
         else {
 
             this.booksCollection[ this.currentBookCapacity ] = book;
-            int bookId = this.currentBookCapacity;
+            bookId = this.currentBookCapacity;
             this.currentBookCapacity++;
 
             return bookId;
@@ -136,7 +141,7 @@ public class Library {
      * @return returns true if the library contains book with the given id.
      */
     protected  boolean isBookIdValid(int bookId) {
-        return bookId > 0 && bookId < this.maxBookCapacity && this.booksCollection[bookId] != null;
+        return bookId >= 0 && bookId < this.maxBookCapacity && this.booksCollection[bookId] != null;
     }
 
     /**
