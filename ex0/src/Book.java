@@ -1,6 +1,3 @@
-/**
- * This class represents a book, which has a title, author, year of publication and different literary aspects.
- */
 class Book {
 
     /** The title of this book. */
@@ -13,20 +10,20 @@ class Book {
     final int yearOfPublication;
 
     /** The comic value of this book. */
-    private int comicValue;
+    public int comicValue;
 
     /** The dramatic value of this book. */
-    private int dramaticValue;
+    public int dramaticValue;
 
     /** The educational value of this book. */
-    private int educationalValue;
+    public int educationalValue;
 
 
     /** will be setted as borrowerId in case no one has borrowered  the book */
     public static final int AVAILABLE = -1;
 
     /** the id number of the borrower */
-    private int borrowerId;
+    public int borrowerId;
 
     /**
      * returns the title of the book.

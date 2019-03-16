@@ -2,21 +2,24 @@ public class Library {
 
 
     // the capacity limits.
-    private final int maxBookCapacity ;
-    private final int maxBorrowedBooks ;
-    private final int maxPatronCapacity ;
+    public final int maxBookCapacity ;
+    public final int maxBorrowedBooks ;
+    public final int maxPatronCapacity ;
 
     // the current capacity of the arrays.
-    private int  currentBookCapacity;
-    private int  currentPatronCapacity;
+    public int  currentBookCapacity;
+    public int  currentPatronCapacity;
+
+
 
 
     // the lists of the books and the patrons.
-    private Book [] booksCollection;
-    private Patron [] patronsCollection;
+    public Book [] booksCollection;
+    public Patron [] patronsCollection;
 
     // Array which
-    private int [] borrowedBooks;
+    public int [] borrowedBooks;
+
 
 
     /**
@@ -47,7 +50,7 @@ public class Library {
      * @return a non-negative id number for the book if there was a spot and the book was successfully added,
      * or if the book was already in the library; a negative number otherwise.
      */
-    protected int	addBookToLibrary(Book book)
+    public int	addBookToLibrary(Book book)
     {
 
         int bookId =  this.getBookId(book);
@@ -73,14 +76,20 @@ public class Library {
      * @param bookId - The id to check.
      * @return true if the given number is an id of some book in the library, false othe
      */
-    protected boolean borrowBook(int bookId, int patronId){
+    public boolean borrowBook(int bookId, int patronId){
         boolean haveBeenBorrowed = false;
 
-        if ( this.isBookIdValid(bookId) && this.isPatronIdValid(patronId) ) {
+        if ( this.isBookAvailable(bookId) && this.isPatronIdValid(patronId) ) {
             if ( this.borrowedBooks[ patronId ]  < this.maxBorrowedBooks ) {
 
                 this.booksCollection[bookId].setBorrowerId(patronId);
                 this.borrowedBooks[patronId]++;
+
+                Patron patron = this.patronsCollection[patronId];
+                Book book = this.booksCollection[bookId];
+
+                book.setBorrowerId( patronId );
+                haveBeenBorrowed = patron.willEnjoyBook(book);
             }
         }
 
@@ -92,7 +101,7 @@ public class Library {
      * @param book - The book for which to find the id number.
      * @return a non-negative id number of the given book if he is owned by this library, -1 otherwis
      */
-    protected int	getBookId(Book book) {
+    public int	getBookId(Book book) {
         int bookId = -1;
 
         for ( int i = 0 ; i < this.currentBookCapacity; i++  ){
@@ -109,7 +118,7 @@ public class Library {
      * @param patron - The patron for which to find the id number.
      * a non-negative id number of the given patron if he is registered to this library, -1 otherwise.
      */
-    protected int	getPatronId(Patron patron) {
+    public int	getPatronId(Patron patron) {
         int patronId = -1;
 
         for (int i = 0; i < this.currentPatronCapacity ; i++) {
@@ -126,7 +135,7 @@ public class Library {
      * @param  bookId - The id number of the book to check.
      * @return true if the book with the given id is available, false otherwise
      */
-    protected boolean	isBookAvailable(int bookId) {
+    public boolean	isBookAvailable(int bookId) {
         boolean availavle = false;
 
         if ( this.isBookIdValid(bookId))
@@ -140,7 +149,7 @@ public class Library {
      * @param bookId - the id of the book.
      * @return returns true if the library contains book with the given id.
      */
-    protected  boolean isBookIdValid(int bookId) {
+    public  boolean isBookIdValid(int bookId) {
         return bookId >= 0 && bookId < this.maxBookCapacity && this.booksCollection[bookId] != null;
     }
 
@@ -149,7 +158,7 @@ public class Library {
      * @param patronId - The id to check.
      * @return  true if the given number is an id of a patron in the library, false otherwise.
      */
-    protected boolean	isPatronIdValid(int patronId) {
+    public boolean	isPatronIdValid(int patronId) {
         return  patronId >= 0 && patronId < this.maxPatronCapacity && this.patronsCollection[patronId] != null;
     }
 
@@ -159,10 +168,11 @@ public class Library {
      * @return a non-negative id number for the patron if there was a spot and the patron was successfully registered,
      * a negative number otherwise.
      */
-    protected int	registerPatronToLibrary(Patron patron) {
+    public int	registerPatronToLibrary(Patron patron) {
         int patronId = -1;
 
-        if (this.currentPatronCapacity < this.maxPatronCapacity ) {
+        if (this.currentPatronCapacity < this.maxPatronCapacity &&
+                this.getPatronId(patron) == -1) {
             this.patronsCollection[this.currentPatronCapacity] = patron;
             patronId = this.currentPatronCapacity;
             this.currentPatronCapacity++;
@@ -177,7 +187,7 @@ public class Library {
 
     // TODO : complete the function after, it will be clear if there was mistake in the java-doc.
 
-    protected  void returnBook(int bookId) {
+    public  void returnBook(int bookId) {
         if ( this.isBookIdValid(bookId)) {
 
              Book returnedBook = this.booksCollection[bookId];
@@ -195,7 +205,8 @@ public class Library {
      * @param  patronId - The id number of the patron to suggest the book to.
      * @return The available book the patron with the given will enjoy the most. Null if no book is available.
      */
-    protected  Book suggestBookToPatron(int patronId) {
+    public  Book suggestBookToPatron(int patronId) {
+
 
         final int firstIndex = 0 , secondIndex = 1;
         Book suggestBook = null;
@@ -204,22 +215,29 @@ public class Library {
         if ( this.isPatronIdValid(patronId) ) {
 
             Patron patron = this.patronsCollection[patronId];
+            int maxScore = 0;
 
-            suggestBook = this.booksCollection[firstIndex];
-            int maxScore = patron.getBookScore(suggestBook);
+            for (int bookId = firstIndex; bookId < this.maxBookCapacity &&
+                    this.booksCollection[bookId] != null; bookId++) {
 
-            for (int i = secondIndex; i < this.maxBookCapacity &&
-                    this.booksCollection[i] != null; i++) {
+                if (  this.isBookAvailable(bookId) ) {
 
-                int tempScore = patron.getBookScore(this.booksCollection[i]);
-                if (tempScore > maxScore) {
-                    suggestBook = this.booksCollection[i];
-                    maxScore = tempScore;
+                    Book book = this.booksCollection[bookId];
+                    int tempScore = patron.getBookScore(book);
+
+                    if (tempScore > maxScore) {
+                        suggestBook = book;
+                        maxScore = tempScore;
+                    }
                 }
             }
         }
 
         return suggestBook;
+    }
+
+    public Book[] getBooksCollection() {
+        return booksCollection;
     }
 
 }
