@@ -185,8 +185,6 @@ public class Library {
      * @param bookId - The id number of the book to return.
      */
 
-    // TODO : complete the function after, it will be clear if there was mistake in the java-doc.
-
     public  void returnBook(int bookId) {
         if ( this.isBookIdValid(bookId)) {
 
@@ -215,7 +213,7 @@ public class Library {
         if ( this.isPatronIdValid(patronId) ) {
 
             Patron patron = this.patronsCollection[patronId];
-            int maxScore = 0;
+            int maxScore = -1;
 
             for (int bookId = firstIndex; bookId < this.maxBookCapacity &&
                     this.booksCollection[bookId] != null; bookId++) {

@@ -14,9 +14,8 @@ public class Patron {
 
     /** the last name of the Patron */
     public final String lastName;
-    
-    // TODO : complete the discretion of minmalScore
-    /** the minmal score */
+
+    /** the minmal score which book reburied to over for been liked */
     public final int minmalScore;
 
 
@@ -50,7 +49,6 @@ public class Patron {
                 this.educationalWeight * book.getEducationalValue();
     }
 
-    // TODO : check if the the inequality is week or strong.
 
     /**
      * Returns true of this patron will enjoy the given book, false otherwise.
