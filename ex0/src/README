@@ -1,12 +1,12 @@
 davidponar
 
-ex0
+ex2
 =============================
 =      File description     =
 =============================
-Book.java - the implementation of the books class.
-Patron.java - the implementation of the patrons.
-Library.java - the implementation of the library. and contains most of the program logic.
+AggressiveShip.java  HumanShip.java    README                 SpaceShip.java
+BasherShip.java      Main.java         RunnerShip.java        SpaceWars.java
+DrunkardShip.java    PursuesShip.java  SpaceShipFactory.java  SpecialShip.java
 
 =============================
 =          Design           =
