@@ -1,6 +1,7 @@
 package filesprocessing;
 
-import java.io.File;
+import filesprocessing.operations.Operation;
+
 import java.util.LinkedList;
 
 public class Section {

@@ -1,16 +1,22 @@
-package filesprocessing;
+package filesprocessing.operations.sortoperations;
+
+import filesprocessing.FileDelegate;
+import filesprocessing.Heap;
+import filesprocessing.operations.Operation;
 
 import java.util.Comparator;
 import java.util.LinkedList;
 
-public class SortOperation implements Operation {
+public class SortOperation extends Operation {
+
+    private static final String REVERSE  = "REVERSE";
 
     Comparator<FileDelegate> comparator;
     boolean reverse;
 
-    public SortOperation( Comparator<FileDelegate> comparator, boolean reverse ) {
+    public SortOperation( Comparator<FileDelegate> comparator, String [] params) {
         this.comparator = comparator;
-        this.reverse = reverse;
+        this.reverse = this.isturnOn( this.REVERSE );
     }
 
     @Override

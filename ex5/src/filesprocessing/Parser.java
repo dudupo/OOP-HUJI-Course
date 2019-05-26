@@ -1,5 +1,8 @@
 package filesprocessing;
 
+import filesprocessing.operations.FilterFactory;
+import filesprocessing.operations.Operation;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
