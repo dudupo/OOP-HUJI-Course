@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 public abstract class Operation {
 
-    protected abstract LinkedList<FileDelegate> execute(LinkedList<FileDelegate> inputFilesList);
+    public abstract LinkedList<FileDelegate> execute(LinkedList<FileDelegate> inputFilesList);
 
     protected String [] command;
 

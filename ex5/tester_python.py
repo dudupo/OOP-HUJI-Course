@@ -5,7 +5,7 @@ import textwrap
 from os import listdir
 # from os import startfile
 from os.path import isfile, join, isdir, exists
-from os import path, system
+from os import path
 import subprocess
 
 tester_ver = 1.3
@@ -32,16 +32,16 @@ ASCII_PASSES = """
 """
 
 # paths to files and folder
-path_to_test_files = path.join("tester_files")
+path_to_test_files = path.join(".\tester_files")
 path_to_tests = path.join(path_to_test_files, "tests")
 path_to_type_2_tests = path.join(path_to_test_files, "tests_error_type_2")
 path_to_files_to_filter = path.join(path_to_test_files, "files_to_filter")
 
 folders_of_files_to_filter = ['simple', 'complex']
 
-path_to_java_files = path.join("src")
+path_to_java_files = path.join(".\src")
 path_to_compiled_files = path.join(path_to_test_files, "compiled_files")
-path_to_DirectoryProcessor_compiled = path.join("filesprocessing/DirectoryProcessor")
+path_to_DirectoryProcessor_compiled = path.join("filesprocessing.DirectoryProcessor")
 path_to_filesprocessing = path.join(path_to_java_files, "filesprocessing")
 path_to_DirectoryProcessor_not_compiled = path.join(path_to_filesprocessing,
                                                     "DirectoryProcessor.java")
@@ -66,8 +66,6 @@ def run_with_cmd(command_list):
     Execute the given command list with the command line
     Return a tuple containing the return code, output and errors.
     """
-
-    #print(command_list)
 
     process = subprocess.Popen(command_list, stdin=subprocess.PIPE,
                                stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
@@ -100,21 +98,15 @@ def compile_file():
         can_not_test("You don't have the file: " + path_to_DirectoryProcessor_not_compiled)
 
 
+
     command_list = ['javac', '-d', path_to_compiled_files,
                     '-cp', path_to_java_files, path_to_DirectoryProcessor_not_compiled]
 
-    #print(command_list)
-    #input()
+    print( command_list )
 
-    #code, output, errors = run_with_cmd(command_list)
-
-    code = system("javac ./src/filesprocessing/*.java -cp ./src/filesprocessing  -d ./tester_files/compiled_files -Xlint:rawtypes -Xlint:static -Xlint:empty -Xlint:divzero -Xlint:deprecation")
-
-    #print("javac ./src/filesprocessing/DirectoryProcessor.java") # "-d ./" + path_to_compiled_files)
-    #input()
-
+    code, output, errors = run_with_cmd(command_list)
     if code != 0:
-        can_not_test("problem with compiling\n" + str(code))
+        can_not_test("problem with compiling\n"+"error message\n"+errors)
     print("compile OK\n\n")
 
 
@@ -151,11 +143,6 @@ def run_one_test(test_folder_name, files_to_filter_folder):
 
     code, user_output, user_errors = run_with_cmd(command_list)  # run your code
 
-
-    #print("user->" + user_output)
-
-    #input()
-
     # save the files output and errors
     with open(path_to_user_output, 'w') as output_file:
         output_file.write(user_output)
@@ -188,9 +175,10 @@ def compare_files(file1, file2):
     :param file2:
     :return: the compaction text if there was errors
     """
-    code = system("diff -b -q " + file1 + " " + file2 + " 1> /dev/null")
+    command_to_compare = ['fc', '/W', '/N', '/A', file1, file2]
+    code, output, errors = run_with_cmd(command_to_compare)
     if code != 0:  # if code != 0
-        return "not the same"
+        return output
     return None
 
 
@@ -252,7 +240,6 @@ def type_2_tests():
     passed_tests = 0
     for test in tests_names:
         folder_to_filter = path.join(path_to_files_to_filter, folders_of_files_to_filter[0])
-        print(folder_to_filter)
         path_to_test = path.join(path_to_type_2_tests, test)
         passed = run_one_type_2_test(folder_to_filter, path_to_test, test)
         if passed:
@@ -297,10 +284,6 @@ if __name__ == "__main__":
     while True:
         print("starting tester for ex5 version", tester_ver, '\n')
         compile_file()
-
-        print(path_to_files_to_filter)
-
-
         tests_passed = run_tests()
         type_2_passed = run_type_2_tests()
 

@@ -16,6 +16,8 @@ public class DirectoryProcessor {
             for (Section section : Parser.parserSections(new File(commandfile), new File(sourcedir))) {
                 section.run();
             }
+
+
         } catch ( FileNotFoundException e ) {
 
         }

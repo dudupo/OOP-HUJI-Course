@@ -1,6 +1,6 @@
 package filesprocessing.operations;
 
-import filesprocessing.FileDelegate;
+import filesprocessing.errorhandlers.ErrorHandler;
 import filesprocessing.operations.propertyopreations.Filter_executable;
 import filesprocessing.operations.propertyopreations.Filter_hidden;
 import filesprocessing.operations.propertyopreations.Filter_writable;
@@ -10,15 +10,13 @@ import filesprocessing.operations.rangeoperators.Filter_smaller_than;
 import filesprocessing.operations.sortoperations.Filter_abs;
 import filesprocessing.operations.sortoperations.Filter_size;
 import filesprocessing.operations.sortoperations.Filter_type;
-import filesprocessing.operations.sortoperations.SortOperation;
+import filesprocessing.operations.substringopreations.Filter_contains;
+import filesprocessing.operations.substringopreations.Filter_file;
+import filesprocessing.operations.substringopreations.Filter_prefix;
+import filesprocessing.operations.substringopreations.Filter_suffix;
 
-import java.util.Comparator;
 
 public class FilterFactory {
-
-
-
-
 
     public enum OPERATORS {
         greater_than,
@@ -34,7 +32,9 @@ public class FilterFactory {
         all,
         abs,
         type,
-        size;
+        size,
+        filter,
+        order;
     }
 
     public static OPERATORS isOperator( String operator ) {
@@ -44,37 +44,14 @@ public class FilterFactory {
         return null;
     }
 
-    public static String getLast( String ... params ) {
-        if (params.length > 1 )
-            return params[params.length - 1];
-        else
-            return null;
-    }
+    public static Operation createInstance(String... params) throws ErrorHandler {
 
-//    public static boolean checklast( String ... params ) {
-//        String last = FilterFactory.getLast(params);
-//        return last == null || !last.equals(NEGFLAG);
-//    }
+       // System.err.println(params[0]);
 
 
-    public static boolean includeOrExclude( String ... params ) {
-        String last = FilterFactory.getLast(params);
-        return last == null || !last.equals(NEGFLAG);
-    }
+        OPERATORS operator = FilterFactory.isOperator(
+                params[0].toLowerCase());
 
-
-    public static boolean reversreOrder ( String ... params ) {
-        String last = FilterFactory.getLast(params);
-        return last == null || !last.equals(REVERSE);
-    }
-
-    public static Operation createInstance(String... params) {
-
-        OPERATORS operator = FilterFactory.isOperator(params[0]);
-        String param = params.length > 1 ? params[1] : null;
-
-        boolean negflag = includeOrExclude(params);
-        boolean reverseflag = !reversreOrder(params);
 
         if ( operator != null) {
 
@@ -90,44 +67,15 @@ public class FilterFactory {
                     return new Filter_smaller_than(params);
 
                 case file:
-                    return new FilterOperation(negflag) {
-
-                        @Override
-                        public boolean filter(FileDelegate fileDelegate) {
-                            return fileDelegate.getName().equals(param);
-                        }
-
-                    };
+                    return new Filter_file(params);
 
                 case contains:
-                    return new FilterOperation(negflag) {
-
-                        @Override
-                        public boolean filter(FileDelegate fileDelegate) {
-                            return fileDelegate.Contains(param);
-                        }
-
-                    };
+                    return new Filter_contains(params);
 
                 case prefix:
-                    return new FilterOperation(negflag) {
-
-                        @Override
-                        public boolean filter(FileDelegate fileDelegate) {
-                            return fileDelegate.Prefix(param);
-                        }
-
-                    };
-
+                    return new Filter_prefix(params);
                 case suffix:
-                    return new FilterOperation(negflag) {
-
-                        @Override
-                        public boolean filter(FileDelegate fileDelegate) {
-                            return fileDelegate.Suffix(param);
-                        }
-
-                    };
+                    return new Filter_suffix(params);
 
                 case writable:
                     return new Filter_writable(params);
@@ -149,12 +97,16 @@ public class FilterFactory {
 
                 case type:
                     return new Filter_type(params);
+                case filter:
+                    return null;
+                case order:
+                    return null;
             }
 
         }
 
         // TODO throw exception.
-        return null;
+        throw new ErrorHandler();
 
     }
 
