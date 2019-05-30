@@ -1,12 +1,13 @@
 package filesprocessing;
 
 import filesprocessing.errorhandlers.ErrorHandler;
-import filesprocessing.operations.FilterFactory;
-import filesprocessing.operations.Filter_all;
+import filesprocessing.operations.factory.FilterFactory;
 import filesprocessing.operations.Operation;
+import filesprocessing.operations.factory.InstanceFilterCreator;
+import filesprocessing.operations.factory.InstanceSorterCreator;
+import filesprocessing.operations.sortoperations.Filter_abs;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -15,84 +16,107 @@ import java.util.Scanner;
 
 public class Parser {
 
-    public static final String SECTIONDELIMITER = "FILTER\n";
-    public static final String FEEDLINEDELIMITER = "\n";
-    public static final String PARAMSDELIMITER = "#";
-    public static final int LIMITSPLIT = 2;
+    private static final String FILTERDEILIMTER = "FILTER";
+    private static final String ORDERDEILIMTER = "ORDER";
+    private static final String FILTERERROR = "FILTER subsection missing";
+    private static final String ORDERERROR = "ORDER subsection missing";
 
 
-    public static Section EmptySection ( LinkedList<FileDelegate> files ) {
-
-        LinkedList<Operation> operations = new LinkedList<Operation>( );
-
-        operations.add(
-                new Filter_all(
-                    new String[]{
-                            FilterFactory.OPERATORS.all.name()
-                    }
-                )
-        );
-
-
-        return new Section(operations, files);
-    }
-
+    /**
+     * iterating over the command file and the directory and
+     * returns a list of sections objects.
+     * @param commandFile - the command file.
+     * @param sourceFile - the target dir to filter.
+     * @return list of sections.
+     * @throws Exception , type II errors, which will stop the process, and will be handled in
+     * the main function.
+     */
     public static LinkedList<Section> parserSections(File commandFile, File sourceFile )
-            throws FileNotFoundException {
+            throws Exception {
 
         LinkedList<FileDelegate> fileDelegates = new LinkedList<FileDelegate>();
 
         for (File file : sourceFile.listFiles()){
-            fileDelegates.addLast( new FileDelegate(file) );
+            if (!file.isDirectory())
+                fileDelegates.addLast( new FileDelegate(file) );
         }
         return Parser.getSections(commandFile, fileDelegates);
     }
 
+
+    /**
+     * constructs the sections, by initialing a filter list.
+     * @param commandFile - the command file.
+     * @param files - the given files list to filter.
+     * @return list of sections.
+     * @throws Exception  type II errors, which will stop the process, and will be handled in
+     *      the main function.
+     */
     public static LinkedList<Section> getSections(File commandFile, LinkedList<FileDelegate> files)
-            throws FileNotFoundException {
+            throws Exception {
 
         LinkedList<Section> sections = new LinkedList<>();
 
         Scanner scanner = new Scanner(commandFile);
-        scanner.useDelimiter(Parser.SECTIONDELIMITER);
-        int line = 0;
+        int line = 1;
+
+
+        InstanceFilterCreator FilterCreator = new InstanceFilterCreator();
+        InstanceSorterCreator SorterCreator = new InstanceSorterCreator();
+
+
         while (scanner.hasNext()) {
-            Scanner section_scanner = new Scanner(scanner.next());
-            section_scanner.useDelimiter(Parser.FEEDLINEDELIMITER);
+
 
             LinkedList<Operation> operations = new LinkedList<>();
-            if ( section_scanner.hasNext()  )
 
-            while(section_scanner.hasNext()){
-                line++;
-                Operation operation = null;
-                try {
-                    operation = FilterFactory.createInstance(
-                            section_scanner.nextLine().split( Parser.PARAMSDELIMITER ));
-                } catch (ErrorHandler errorHandler) {
-                    System.err.println( "Warning in line " + line );
-                    //errorHandler.printStackTrace();
 
-                }
 
-                if (operation != null)
-                    operations.addLast( operation );
+            if ( !scanner.nextLine().equals( FILTERDEILIMTER ) )
+            {
+                throw new Exception(FILTERERROR);
             }
 
-            if (!operations.isEmpty())
-                sections.addLast(new Section(operations, files ));
+            line++;
+
+            operations.addLast(FilterCreator.createInstance(scanner, line ));
+            line++;
+
+            if ( !scanner.nextLine().equals( ORDERDEILIMTER ) )
+            {
+                throw new Exception(ORDERERROR);
+            }
+
+            line++;
+            /*
+                  the purpose of the condition here, is to
+                  give answer to a specific end-case:
+
+                        [v] FILTER
+                        [v] filter_all
+                        [v] ORDER
+                      ! [x] FILTER
+                        [v] filter_all
+                        [v] ORDER
+                        [v] size
+             */
+            if (!scanner.hasNext( FILTERDEILIMTER )) {
+                operations.addLast(SorterCreator.createInstance(scanner, line));
+                line++;
+            }
+
+            else {
+                operations.addLast(InstanceSorterCreator.getAbsOperation());
+            }
+
+            sections.addLast(new Section(operations, files));
+
         }
-
-        if(sections.isEmpty())
-            sections.add( EmptySection(files) );
-
 
         return sections;
     }
 
-    public static String [] extractFunctionAndParams (String line) {
-        return line.split( "#"  , 2 );
-    }
+
 
 
 

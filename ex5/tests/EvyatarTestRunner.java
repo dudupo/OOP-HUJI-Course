@@ -119,7 +119,7 @@ public class EvyatarTestRunner {
         void testErrorType2(File errorCommandFile){
                 MainTest test = new MainTest(errorCommandFile.toPath(), simpleFiles);
                 assertEquals(test.getOut(), "", "There should be no STDOUT output upon Type I error.");
-                assertTrue(test.getError().startsWith("ERROR: "), "STDERR should start with \"Error: \", got " + test.getError() +  "instead.");
+                 assertTrue(test.getError().startsWith("ERROR: "), "STDERR should start with \"Error: \", got " + test.getError() +  "instead.");
         }
 
         @ValueSource
@@ -132,5 +132,5 @@ public class EvyatarTestRunner {
             return Stream.of(errorCommandFiles);
         }
     }
-
 }
+

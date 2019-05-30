@@ -1,5 +1,0 @@
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at filesprocessing.operations.FilterFactory$2.filter(FilterFactory.java:88)
-	at filesprocessing.operations.FilterOperation.execute(FilterOperation.java:19)
-	at filesprocessing.Section.run(Section.java:25)
-	at filesprocessing.DirectoryProcessor.main(DirectoryProcessor.java:17)

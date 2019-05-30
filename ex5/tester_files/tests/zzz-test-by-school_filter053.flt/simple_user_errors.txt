@@ -1,6 +1,0 @@
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at filesprocessing.Heap.<init>(Heap.java:31)
-	at filesprocessing.Heap.Sort(Heap.java:18)
-	at filesprocessing.operations.sortoperations.SortOperation.execute(SortOperation.java:21)
-	at filesprocessing.Section.run(Section.java:25)
-	at filesprocessing.DirectoryProcessor.main(DirectoryProcessor.java:17)
