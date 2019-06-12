@@ -23,7 +23,7 @@ public class Heap {
      *                  two files
      * @return a sorted list of those files.
      */
-    public static FileDelegate[] Sort( FileDelegate [] array, Comparator comparator) {
+    public static FileDelegate[] Sort( FileDelegate [] array, Comparator<FileDelegate> comparator) {
 
         if(array.length == 0)
             return new FileDelegate[]{};

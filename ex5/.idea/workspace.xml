@@ -2,520 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0e0f37-6edf-4c8d-960d-7f1c39405152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/filesprocessing/operations/factory/InstanceCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filesprocessing/operations/factory/InstanceFilterCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filesprocessing/operations/factory/InstanceSorterCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ex5/README" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/DirectoryProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/DirectoryProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/FileDelegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/FileDelegate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/Section.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/errorhandlers/ErrorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/errorhandlers/ErrorHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/FilterFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/FilterFactory$OPERATORS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/FilterFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/FilterOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/FilterOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/Filter_all.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/Filter_all.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_executable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_executable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_hidden.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_hidden.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_property.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_writable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/propertyopreations/Filter_writable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_between.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_between.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_greater_than.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_greater_than.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_range.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_range.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_smaller_than.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/rangeoperators/Filter_smaller_than.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_abs$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_abs$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_abs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_abs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_size$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_size$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_size.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_size.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_type$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_type$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/Filter_type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/SortOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/sortoperations/SortOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_contains.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_contains.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_file.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_file.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_prefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_prefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_suffix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex5/filesprocessing/operations/substringopreations/Filter_suffix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/DirectoryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/DirectoryProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/FileDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/FileDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/filesprocessing/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/errorhandlers/ErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/errorhandlers/ErrorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/FilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/factory/FilterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/FilterOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/FilterOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/Filter_all.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/Filter_all.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_executable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_executable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_hidden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_hidden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_writable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_writable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_between.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_between.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_greater_than.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_greater_than.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_smaller_than.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_smaller_than.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/Filter_abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/Filter_abs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/Filter_size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/Filter_size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/Filter_type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/Filter_type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/SortOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/sortoperations/SortOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_contains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_contains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_file.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_prefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_suffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_suffix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/DirectoryProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FileDelegate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory$OPERATORS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/FilterOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/compiled_files/filesprocessing/SortOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/0.w.size-90824.BCB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/1..size-37772.ACA.AAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/10..size-31440.CBB.ACC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/100.w.size-39085.BBA.BCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/101.w.size-64401.ABB.BCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/102.w.size-61018.CBB.BAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/103..size-45462.AAC.AAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/104.w.size-24955.CAB.ACA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/105..size-65767.CBB.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/106.w.size-80168.AAB.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/107.w.size-19366.ACB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/108..size-37508.ABB.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/109.w.size-33865.CBA.BAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/11.w.size-3909.BBC.BBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/110..size-43555.CAB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/111.w.size-7895.ABB.CBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/112.w.size-90261.BBC.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/113.w.size-65401.BAB.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/114..size-319.BBA.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/115.w.size-99803.CCB.CBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/116.w.size-24975.BAA.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/117..size-13147.BAB.CAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/118.w.size-36477.CCA.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/119.w.size-99708.BCB.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/12..size-58590.BCC.ACA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/120..size-67355.ABC.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/121..size-96408.AAA.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/122..size-10150.ABB.ABC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/123..size-88177.ABC.CBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/124.w.size-85485.BBA.CCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/125..size-99838.BBA.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/126..size-92.ABB.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/127..size-80282.CCA.CBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/128.w.size-94522.CAB.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/129.w.size-41358.AAA.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/13.w.size-26983.CBC.AAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/130..size-33560.BBB.ABA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/131.w.size-10789.BBB.CCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/132.w.size-63445.ABC.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/133..size-98552.BBA.ACA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/134.w.size-36081.BCB.BCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/135.w.size-92747.CAC.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/136.w.size-9436.ACB.ACC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/137.w.size-8337.BCB.CBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/138..size-34163.ABB.AAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/139..size-43857.CCB.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/14.w.size-811.BAA.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/140..size-34523.AAC.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/141.w.size-2732.CBA.ABA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/142..size-67431.BCA.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/143..size-18945.ACA.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/144.w.size-96655.BAC.BBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/145.w.size-39250.CCB.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/146..size-65133.BAC.CBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/147.w.size-65457.CBA.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/148..size-100963.CAB.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/149.w.size-100910.BBC.BBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/15.w.size-81787.CBC.BBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/16..size-32782.BCC.BCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/17.w.size-99904.AAB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/18.w.size-31231.CCC.CBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/19..size-30287.ABB.CCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/2..size-65260.BAC.AAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/20.w.size-30312.BAC.AAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/21..size-71050.CBB.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/22..size-41928.BBA.AAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/23.w.size-51623.CCA.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/24.w.size-60775.ACC.AAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/25.w.size-4906.AAC.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/26.w.size-66793.ABA.BBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/27.w.size-23156.CBC.CCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/28.w.size-66023.ABB.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/29.w.size-50213.AAA.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/3.w.size-99916.BAA.ACA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/30..size-35062.BCB.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/31.w.size-69784.AAB.BBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/32.w.size-93213.CBA.BAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/33.w.size-69661.AAB.CCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/34.w.size-18751.BBC.CBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/35.w.size-63628.CBB.ABA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/36..size-8190.BCA.AAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/37.w.size-106.ABA.CBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/38.w.size-27863.CBC.AAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/39.w.size-34015.CBA.CCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/4.w.size-28655.CCB.ABA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/40.w.size-86175.CBC.ACB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/41.w.size-9813.ABA.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/42..size-20297.ACC.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/43..size-27641.ABB.ABA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/44..size-48814.BBA.BBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/45.w.size-12524.CAB.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/46..size-32909.CAB.ACA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/47..size-62727.CBA.ACA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/48..size-28567.CAA.ACB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/49.w.size-12869.CBC.BBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/5.w.size-4812.BCC.BBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/50..size-93461.CAB.CCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/51..size-100557.CAC.CBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/52.w.size-85511.ACA.AAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/53..size-26613.CAC.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/54.w.size-21425.AAA.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/55..size-100245.CBC.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/56..size-14960.ACC.BAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/57..size-81850.CBA.CBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/58.w.size-94291.BBA.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/59..size-8943.CCA.BCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/6.w.size-70960.ACA.BBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/60..size-6823.BAB.BBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/61..size-32540.BAB.BAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/62..size-95080.CCC.CBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/63.w.size-80760.ABB.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/64..size-13157.CBA.BBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/65.w.size-41649.CBA.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/66.w.size-54702.BBC.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/67..size-39588.ABB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/68.w.size-29309.BBA.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/69.w.size-7741.ABC.CBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/7.w.size-44158.CBC.ACC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/70.w.size-25645.AAC.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/71..size-58916.CCB.AAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/72..size-94522.ACC.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/73.w.size-59255.CCB.AAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/74.w.size-69471.CCB.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/75.w.size-32395.CBA.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/76..size-73200.BCC.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/77..size-59371.ACA.CAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/78.w.size-65506.BBC.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/79..size-6875.ABC.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/8..size-75318.CCA.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/80.w.size-10747.BCB.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/81..size-19778.BBC.BAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/82.w.size-17388.CBB.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/83.w.size-45685.AAC.BBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/84.w.size-9977.BBC.CCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/85..size-45885.BCA.CBC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/86.w.size-69382.CBA.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/87.w.size-69800.BBA.ACC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/88..size-15634.BBB.ABA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/89..size-26073.ABC.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/9.w.size-52359.BCB.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/90.w.size-52541.ACC.CCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/91..size-38857.ABB.ABB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/92.w.size-83927.AAC.BCB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/93.w.size-8509.ACB.CBB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/94.w.size-52695.BCC.CAB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/95.w.size-92377.CBB.BAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/96.w.size-25789.ACB.CCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/97..size-65132.CCB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/98.w.size-19986.ACA.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/99..size-8780.NHDR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/Same_a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/dir/same_name_a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/dir/same_name_c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file0.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file1.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file2.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file4.A" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file5.b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/file8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/same_name_a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/complex/same_name_c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/0.wx.size-36675.BAC.BCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/1.wx.size-14161.CBC.CAA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/2.wx.size-91031.AAA.CBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/3.x.size-12727.BCB.BBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/4.wx.size-21889.BBB.CCC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/5.x.size-16085.CBA.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/6.wx.size-19440.BCB.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/7.wx.size-21903.CCB.BAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/8.wx.size-61786.ACA.BBA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/9.x.size-96210.BAC.CAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/files_to_filter/simple/file2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test00/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test01/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test02/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test03/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test04/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test05_greater_than/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test06_smaller_than/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test07_between/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test08_file/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test09_contains/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test10_suffix_prefix/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_abs/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test11_writble_hidden_excutable/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test12_size/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test13_type/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/test14_order_general/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter050.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter051.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter052.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter053.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter054.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter055.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter057.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter058.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter059.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/complex_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/complex_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/complex_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/complex_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/simple_school_solution_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/simple_school_solution_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/simple_user_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests/zzz-test-by-school_filter060.flt/simple_user_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester_files/tests_error_type_2/filter056.flt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/EvyatarTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EvyatarTestRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -525,8 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -536,45 +29,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.8122271">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_contains.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/filesprocessing/FileDelegate.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#349#350#0" expanded="true" />
-                    <element signature="e#381#382#0" expanded="true" />
-                    <element signature="e#500#501#0" expanded="true" />
-                    <element signature="e#536#537#0" expanded="true" />
-                    <element signature="e#528#529#0" expanded="true" />
-                    <element signature="e#570#571#0" expanded="true" />
-                    <element signature="e#887#888#0" expanded="true" />
-                    <element signature="e#966#967#0" expanded="true" />
-                    <element signature="e#1770#1771#0" expanded="true" />
-                    <element signature="e#1807#1808#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/README">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+                <state relative-caret-position="170">
+                  <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/Operation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1050">
+                  <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="78" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -582,7 +50,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_file.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
+                <state relative-caret-position="150">
                   <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -594,7 +62,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/Parser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
+                <state relative-caret-position="1470">
                   <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -606,17 +74,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/Section.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
+                <state relative-caret-position="465">
                   <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/run.sh">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/run.sh">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
-                  <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                  <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/filesprocessing/Heap.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="900">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
                 </state>
               </provider>
             </entry>
@@ -651,7 +128,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_between.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
+                <state relative-caret-position="465">
                   <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -663,7 +140,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/EvyatarTestRunner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
+                <state relative-caret-position="675">
                   <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -700,7 +177,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_greater_than.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
+                <state relative-caret-position="315">
                   <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -712,7 +189,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_range.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
+                <state relative-caret-position="300">
                   <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="33" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -724,7 +201,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_smaller_than.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="166">
+                <state relative-caret-position="180">
                   <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -764,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/filesprocessing/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/Operation.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/FilterOperation.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/SortOperation.java" />
@@ -789,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/filesprocessing/operations/factory/InstanceFilterCreator.java" />
         <option value="$PROJECT_DIR$/tests/EvyatarTestRunner.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/operations/Filter_all.java" />
-        <option value="$PROJECT_DIR$/src/filesprocessing/operations/Operation.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_property.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/operations/FilterOperation.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/operations/propertyopreations/Filter_hidden.java" />
@@ -810,11 +285,13 @@
         <option value="$PROJECT_DIR$/evyatar_tester/tester_files/tests/zzz-test-by-school_filter054.flt/commands.txt" />
         <option value="$PROJECT_DIR$/src/filesprocessing/Section.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/Parser.java" />
-        <option value="$PROJECT_DIR$/src/filesprocessing/Heap.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/FileDelegate.java" />
         <option value="$PROJECT_DIR$/src/filesprocessing/DirectoryProcessor.java" />
-        <option value="$PROJECT_DIR$/src/README" />
         <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/src/run.sh" />
+        <option value="$PROJECT_DIR$/src/filesprocessing/Heap.java" />
+        <option value="$PROJECT_DIR$/src/filesprocessing/operations/Operation.java" />
+        <option value="$PROJECT_DIR$/src/README" />
       </list>
     </option>
   </component>
@@ -827,7 +304,7 @@
     <option name="x" value="510" />
     <option name="y" value="66" />
     <option name="width" value="1396" />
-    <option name="height" value="990" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -835,28 +312,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ex5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ex5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex5" type="462c0819:PsiDirectoryNode" />
-              <item name="evyatar_tester" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ex5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex5" type="462c0819:PsiDirectoryNode" />
-              <item name="evyatar_tester" type="462c0819:PsiDirectoryNode" />
-              <item name="tester_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -907,14 +363,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\davidponar\workspace\oop\ex5\tester_files" />
-      <recent name="C:\Users\davidponar\workspace\oop\ex5" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\davidponar\workspace\oop\ex5" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\davidponar\workspace\oop\ex5\src" />
+      <recent name="C:\Users\davidponar\workspace\oop\ex5\src\filesprocessing" />
+      <recent name="C:\Users\davidponar\workspace\oop\ex5\tester_files" />
+      <recent name="C:\Users\davidponar\workspace\oop\ex5" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1001,13 +459,12 @@
       <workItem from="1558862235919" duration="5232000" />
       <workItem from="1558887830749" duration="451000" />
       <workItem from="1558888697698" duration="79056000" />
+      <workItem from="1559234319109" duration="5091000" />
+      <workItem from="1560365320243" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ex5 - 2019.05.30 at 14h 37m 55s.xml">
-      <configuration name="All in ex5" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_ex5 - 2019.05.30 at 14h 38m 59s.xml">
       <configuration name="All in ex5" configurationId="JUnit" />
     </history-entry>
@@ -1035,15 +492,17 @@
     <history-entry file="All_in_ex5 - 2019.05.30 at 19h 09m 59s.xml">
       <configuration name="All in ex5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_ex5 - 2019.05.30 at 19h 54m 21s.xml">
+      <configuration name="All in ex5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118676000" />
+    <option name="totallyTimeSpent" value="124140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26319176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23294723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1135,17 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/errorhandlers/ErrorType2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/errorhandlers/ErrorType2.java" />
     <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests_error_type_2/3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1173,13 +622,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests_error_type_2/6.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests_error_type_2/7.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1324,46 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests/zzz-test-by-school_filter052.flt/commands.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_between.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="33" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_greater_than.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/FilterOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -1375,17 +777,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_suffix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_contains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/FileDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_file.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tester.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/DirectoryProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1396,30 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_contains.java">
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_between.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/substringopreations/Filter_file.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_smaller_than.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1428,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/EvyatarTestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="675">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1438,71 +898,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests/zzz-test-by-school_filter052.flt/commands.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests_error_type_2/7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_greater_than.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesprocessing/operations/rangeoperators/Filter_smaller_than.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/evyatar_tester/tester_files/tests/zzz-test-by-school_filter054.flt/commands.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/FileDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/DirectoryProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesprocessing/Section.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_tester.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>

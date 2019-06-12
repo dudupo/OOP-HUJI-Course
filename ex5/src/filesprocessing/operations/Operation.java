@@ -76,7 +76,7 @@ public abstract class Operation {
      * applying Validation actions, in dawn-top order.
      * which mean that, each of the sub classes, first
      * doing some self Validation and only after that,
-     * call to the super.inputValidator
+     * call to the super.inputValidatorReverse
      * @param stack - stack of tokens, each represents,
      *              one parameter from the input line, originally
      *              there were the word between the sharps - x#y#w
