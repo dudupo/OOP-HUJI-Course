@@ -1,36 +1,37 @@
 package processing.textStructure;
 
+import java.io.IOException;
+
 /**
  * This class defines a query result for multiple non-consecutive words.
  */
-public class MultyWordResult extends WordResult implements Comparable<MultyWordResult> {
+public class MultiWordResult extends WordResult implements Comparable<MultiWordResult> {
+	private long[] wordPositions;
+	private int confidence;
+
+
+
+	private MultiWordResult(Block blk, String[] query, long idx) {
+		super(blk, query, idx);
+	}
 
 	/**
-	 * Constructor matching Super
-	 * @param blk
-	 * @param words
-	 * @param idx
+	 * Constructor
+	 * @param query The list of query words
+	 * @param block The block where this result came from
+	 * @param locs  The indices of the words in the block
 	 */
-	public MultyWordResult(Block blk, String words, long idx) {
-		super(blk, words, idx);
-	}
-	
-	/**
-	 * Constructor for multiple query matches
-	 * @param query
-	 * @param block
-	 * @param locs
-	 */
-	public MultyWordResult(String[] query, Block block, long[] locs){
+	public MultiWordResult(String[] query, Block block, long[] locs) {
 	
 	}
+
 	/**
 	 * Calculate the confidence level of a result, defined by the sum of word distances.
 	 * @param locs  The locations of the query words in the text
 	 * @return  The sum of distances
 	 */
 	private int calcConfidence(long[] locs) {
-		//TODO implement me!
+	
 	}
 
 	/**
@@ -39,8 +40,9 @@ public class MultyWordResult extends WordResult implements Comparable<MultyWordR
 	 * @return  int representing comparison result, according to the comparable interface.
 	 */
 	@Override
-	public int compareTo(MultyWordResult o) {
-		//TODO implement me!
+	public int compareTo(MultiWordResult o) {
+
+	
 	}
 
 	/**
@@ -50,8 +52,9 @@ public class MultyWordResult extends WordResult implements Comparable<MultyWordR
 	 * @return  A piece of text containing all query words
 	 */
 	@Override
-	public String resultToString() {
-		//TODO implement me!
+	public String resultToString() throws IOException {
+	
 	}
+
 
 }

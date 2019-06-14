@@ -3,57 +3,69 @@ package processing.textStructure;
 import processing.parsingRules.IparsingRule;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * This class represents a body of works - anywhere between one and thousands of documents sharing the same structure and that can be parsed by the same parsing rule.
  */
-public class Corpus implements Iterable<Entry>{
+public class Corpus implements Iterable<Entry>, Serializable {
+	public static final long serialVersionUID = 1L;
+    private List<Entry> entryList;
+    private IparsingRule parsingRule;
+    private String corpusPath;
 
-    public Corpus(String path, IparsingRule parsingRule) throws IOException {
-        /*
-        check if the path is a folder or file.
-        if file - single entry corpus.
-        otherwise, recursively scan the directory for all subdirectories and files.
-        each entry in a corpus should hold the folder from which the file came.
-         */
-	    //TODO implement me!!!
-
+    public Corpus(String path, String parserName) throws IOException {
+   
     }
-	
+
 	/**
-	 * Populates the entries of an empty corpus (a corpus with only entries and no blocks)
+	 * This method populates the Block lists for each Entry in the corpus.
 	 */
 	public void populate(){
- 
-	}
-	
+    
+    }
+    
+
+	/**
+	 * The path to the corpus folder
+	 * @return A String representation of the absolute path to the corpus folder
+	 */
+	public String getPath() {
+		
+    }
+
+	/**
+	 * Iterate over Entry objects in the Corpus
+	 * @return An entry iterator
+	 */
+	@Override
+    public Iterator<Entry> iterator() {
+        return this.entryList.iterator();
+    }
+
+	/**
+	 * Return the checksum of the entire corpus. This is an MD5 checksum which represents all the files in the corpus.
+	 * @return A string representing the checksum of the corpus.
+	 * @throws IOException if any file is invalid.
+	 */
+	public String getChecksum() throws IOException {
+    
+    }
+
 	/**
 	 * Return the parsing rule used for this corpus
-	 * @return
+	 * @return the parsing rule used for this corpus
 	 */
 	public IparsingRule getParsingRule() {
-		//TODO implement me!!!
+        return this.parsingRule;
+    }
+
+	/**
+	 * Update the RandomAccessFile objects for the Entries in the corpus, if it was loaded from cache.
+	 */
+	public void updateRAFs() {
+	
 	}
-
-    /**
-     * Iterate over Entry objects in the Corpus
-     * @return  An Entry iterator
-     */
-    @Override
-    public Iterator<Entry> iterator() {
-	    //TODO implement me!!!
-    }
-
-    /**
-     * Return the checksum of the entire corpus.
-     * Can be calculated by getting the checksum of each file, then concating them to one string and
-     * returning the checksum of that string.
-     * @return
-     */
-    public String getChecksum() {
-	    //TODO implement me!!!
-    }
-
-
 }

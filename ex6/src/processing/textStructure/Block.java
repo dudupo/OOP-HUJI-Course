@@ -1,15 +1,18 @@
 package processing.textStructure;
 
 import java.io.RandomAccessFile;
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * This class represents an arbitrary block of text within a file
  */
-public class Block {
-	private long startIdx;                  //index within the file where the block begins
-	private long endIdx;                    //index within the file where the block ends
-	private RandomAccessFile inputFile;     //the RAF object pointing to the physical file in the file system
+public class Block implements Serializable {
+	public static final long serialVersionUID = 1L;
+
+	private long endIdx;
+	transient RandomAccessFile inputFile;
+	private long startIdx;
 
 	/**
 	 * Constructor
@@ -18,63 +21,66 @@ public class Block {
 	 * @param endIdx        end index of the block within the file
 	 */
 	public Block(RandomAccessFile inputFile, long startIdx, long endIdx) {
+		this.inputFile = inputFile;
+		this.startIdx = startIdx;
+		this.endIdx = endIdx;
 
 	}
+	
+	/**
+	 * The filename from which this block was extracted
+	 * @return  filename
+	 */
+	public String getEntryName(){
+	
+	}
 
-	///////// getters //////////
+
+
+///////// getters //////////
 	/**
 	 * @return start index
 	 */
 	public long getStartIndex() {
 		return startIdx;
 	}
-
+	
 	/**
 	 * @return  end index
 	 */
 	public long getEndIndex() {
 		return endIdx;
 	}
-
+	
 	/**
-	 * @return the RAF object for this block
+	 * Convert an abstract block into a string
+	 * @return  string representation of the block (the entire text of the block from start to end indices)
 	 */
-	public RandomAccessFile getRAF() {
-		return inputFile;
-	}
+	@Override
+	public String toString() {
 
-	/**
-	 * Get the metadata of the block, if applicable for the parsing rule used
-	 * @return  String of all metadata.
-	 */
-	public List<String> getMeta() {
-		//TODO implement me!!!
 	}
 	
 	/**
 	 * Adds metadata to the block
 	 * @param metaData A list containing metadata entries related to this block
 	 */
-	public void setMetadata(List<String> metaData){
+	public void setMetadata(List<String> metaData) {
+	}
 	
-	}
+	
 	/**
-	 * The filename from which this block was extracted
-	 * @return  filename
+	 * @return the RAF object for this block
 	 */
-	public String getEntryName() {
-		//TODO implement me!!!
-	}
+	public RandomAccessFile getRAF() {
 
+	}
+	
 	/**
-	 * Convert an abstract block into a string
-	 * @return  string representation of the block
+	 * Get the metadata of the block, if applicable for the parsing rule used
+	 * @return  String of all metadata.
 	 */
-	@Override
-	public String toString() {
-		//TODO implement me!!!
+	public List<String> getMetadata() {
+
 	}
-
-
-
 }
