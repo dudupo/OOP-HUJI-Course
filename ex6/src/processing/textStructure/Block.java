@@ -1,5 +1,6 @@
 package processing.textStructure;
 
+import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.io.Serializable;
 import java.util.List;
@@ -13,6 +14,7 @@ public class Block implements Serializable {
 	private long endIdx;
 	transient RandomAccessFile inputFile;
 	private long startIdx;
+	private List<String> metaData;
 
 	/**
 	 * Constructor
@@ -32,7 +34,7 @@ public class Block implements Serializable {
 	 * @return  filename
 	 */
 	public String getEntryName(){
-	
+		return "EntryName";
 	}
 
 
@@ -59,6 +61,8 @@ public class Block implements Serializable {
 	@Override
 	public String toString() {
 
+		return this.getClass().getName() + "#" +
+				this.getEntryName() +  "#" + this.getStartIndex() ;
 	}
 	
 	/**
@@ -66,6 +70,7 @@ public class Block implements Serializable {
 	 * @param metaData A list containing metadata entries related to this block
 	 */
 	public void setMetadata(List<String> metaData) {
+		this.metaData = metaData;
 	}
 	
 	
@@ -73,7 +78,7 @@ public class Block implements Serializable {
 	 * @return the RAF object for this block
 	 */
 	public RandomAccessFile getRAF() {
-
+		return this.inputFile;
 	}
 	
 	/**
@@ -81,6 +86,6 @@ public class Block implements Serializable {
 	 * @return  String of all metadata.
 	 */
 	public List<String> getMetadata() {
-
+		return this.metaData;
 	}
 }

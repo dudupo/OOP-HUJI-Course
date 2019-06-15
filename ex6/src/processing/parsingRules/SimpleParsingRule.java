@@ -39,6 +39,7 @@ public class SimpleParsingRule implements IparsingRule, Serializable {
 			long endOfBlockOffset = 0, curBlockEnd;
 			Long lastIndex = inputFile.length();
 			for (long i = endOfBlockOffset; i < lastIndex; i += rawChunkSize) {
+
 				inputFile.seek(i);
 				int bytesRead = inputFile.read(rawBytes);
 				String rawBlock = new String(rawBytes);
@@ -50,8 +51,6 @@ public class SimpleParsingRule implements IparsingRule, Serializable {
 					endOfBlockOffset = m.end();
 				}
 				i -= (rawChunkSize - endOfBlockOffset);
-
-
 			}
 
 		} catch (IOException e) {

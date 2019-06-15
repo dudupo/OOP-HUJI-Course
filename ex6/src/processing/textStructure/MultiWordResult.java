@@ -22,7 +22,7 @@ public class MultiWordResult extends WordResult implements Comparable<MultiWordR
 	 * @param locs  The indices of the words in the block
 	 */
 	public MultiWordResult(String[] query, Block block, long[] locs) {
-	
+		super(block ,  query, locs[0]);
 	}
 
 	/**
@@ -31,7 +31,7 @@ public class MultiWordResult extends WordResult implements Comparable<MultiWordR
 	 * @return  The sum of distances
 	 */
 	private int calcConfidence(long[] locs) {
-	
+		return 0;
 	}
 
 	/**
@@ -41,7 +41,7 @@ public class MultiWordResult extends WordResult implements Comparable<MultiWordR
 	 */
 	@Override
 	public int compareTo(MultiWordResult o) {
-
+		return 1;
 	
 	}
 
@@ -53,7 +53,7 @@ public class MultiWordResult extends WordResult implements Comparable<MultiWordR
 	 */
 	@Override
 	public String resultToString() throws IOException {
-	
+		return this.getClass().getName();
 	}
 
 

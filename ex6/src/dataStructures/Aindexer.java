@@ -71,7 +71,7 @@ public abstract class Aindexer<T extends IsearchStrategy> {
 	 * @return  the path to the cached index file.
 	 */
 	protected String getIndexedPath() {
-	
+		return this.getClass().getName();
 	}
 
 	/**
