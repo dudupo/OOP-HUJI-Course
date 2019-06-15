@@ -1,0 +1,59 @@
+davidponar
+
+ex2
+=============================
+=      File description     =
+=============================
+
+SpaceWars.java
+SpaceShipFactory.java - Initializing the ships instances.
+SpaceShip.java - the base classes for all the ships objects.
+
+PursuesShip.java - abstract class of the combat ships, responsible to getting
+the ship into close range with other ships.
+AggressiveShip.java - implements ship, which try to interrupt the others. extends from the PursuesShip.
+BasherShip.java - implements ship, which try to crush into others. extends from the PursuesShip.
+
+HumanShip.java - implements ship, which controlled by the user.
+DrunkardShip.java - implements ship, which choosing randomize actions.
+RunnerShip.java - implements ship, which try to escape from the others.
+
+SpecialShip.java - kind of merging, between the aggressive and the basher.
+firing while the distance from the closest ship is under 0.21 and greater than 0.13
+while lower than 0.13, activate the shield.
+
+=============================
+=          Design           =
+=============================
+
+some, interesting concepts that I have used :
+    1) Closures, as far I know Java doesn't supports native closures, so I have created simple,
+    class -EnergyActionConsumer- which behave like them, the class responsible that the ship will do en action
+    only if, it has enough energy. it also care to update the new energy amount after the execution of the action.
+    by this, the amount of repeated code decrease significantly. and the source seem more elegantly.
+    for example :
+
+         public void fire(SpaceWars game) {
+
+                this.currentEnergy = new EnergyActionConsumer( this.currentEnergy , SpaceShip.fireConsuming ) {
+
+                    @Override
+                    public void action() {
+                        game.addShot(physicsInstance);
+                    }
+
+                }.run();
+            }
+
+    2) Inheritance, I have try to write the class, in such way that there is less as possible repeation of codes.
+    to do so, i write the SpaceShip class, general and without a prior assumptions about the tactics which may be
+    taken by the successors classes, I also. write en abstract basic combact class -PursuesShip.java- which the AggressiveShip
+    and the BasherShip heirs from, the class implements the functionality which makes the combact ships follows the closest
+    enemy. and than leaves to the successors the freedom to decide how to attack when entering to the short combact range.
+
+
+
+=============================
+=  Implementation details   =
+=============================
+

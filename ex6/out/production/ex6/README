@@ -1,0 +1,64 @@
+davidponar
+
+
+
+ex5
+=============================
+=      File description     =
+=============================
+
+packages -
+ operations-> include all the operations.
+    factory -> responsible to create the operations.
+    propertyopreations -> responsible for all the filters
+                        which filter by existing of property.
+    rangeoperators -> responsible for all the filters
+                    which filter by comparing the size.
+    sortoperations -> responsible for all the sorters.
+    substringopreations -> responsible for all the filter
+                        which filtering by some regx.
+
+core files:
+   Operation.java the ancestor of all the operations.
+   Heap.java the sorting implementation.
+   Parser.java the parser which iterate over command file and
+            generate the operations.
+   FileDelegate.java represents delegate to the file.
+   Section.java represents a section object.
+
+=============================
+=          Design           =
+=============================
+
+        handle errors :
+
+            for handling errors while parsing some line, I have
+            implements a mechanism which allowing more freedom degree,
+            when calling to functions in the hierarchy tree.
+
+                inputValidator -      * applying Validation actions, in top-dawn order.
+                                      * which mean that, each of the sub classes, first
+                                      * call to the super.inputValidator and only after
+                                      * that, doing some self Validation.
+
+                and in the opposite, order :
+
+                inputValidatorReverse -      * applying Validation actions, in dawn-top order.
+                                             * which mean that, each of the sub classes, first
+                                             * doing some self Validation and only after that,
+                                             * call to the super.inputValidatorReverse
+
+            the combination of those, allow to calling to different methods in
+            the hierarchy tree.
+
+        Sorting :
+
+            I have implements the heapsort algorithm, that because it's insure
+            en upper bound of nlog(n) run time in the worst case, the a algorithm
+            use a datastructre which called en heap. that structure is binary tree,
+            which assume that the root of the tree is greater than all his childes,
+            that invariant allow us to rooter or extract a node from the tree in log(n)
+            times.
+
+
+

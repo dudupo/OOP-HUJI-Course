@@ -1,0 +1,24 @@
+davidponar
+
+ex2
+=============================
+=      File description     =
+=============================
+AggressiveShip.java  HumanShip.java    README                 SpaceShip.java
+BasherShip.java      Main.java         RunnerShip.java        SpaceWars.java
+DrunkardShip.java    PursuesShip.java  SpaceShipFactory.java  SpecialShip.java
+
+=============================
+=          Design           =
+=============================
+I implemented the class in a way that only the library has access to the other components of
+the program. the library holds arrays of patron and books objects, and responsible to register them.
+
+=============================
+=  Implementation details   =
+=============================
+there is not so mach sophisticated concepts, the main principle which leading the writing is that
+the methods should look neutral as possible while the runtime stat linear in the books and the patrons
+capacity ( for example when suggesting book to some patron, the method extracting the maximal score value while
+compering each book almost one time ).
+
