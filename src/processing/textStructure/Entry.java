@@ -1,7 +1,6 @@
 package processing.textStructure;
 
 import processing.parsingRules.IparsingRule;
-
 import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
 import java.io.Serializable;

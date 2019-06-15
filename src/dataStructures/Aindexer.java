@@ -97,5 +97,7 @@ public abstract class Aindexer<T extends IsearchStrategy> {
 	 * simple getter
 	 * @return  Regerence to the origin Corpus
 	 */
-	public Corpus getCorpus(){return  this.origin;}
+	public Corpus getCorpus(){
+		return  this.origin;
+	}
 }
