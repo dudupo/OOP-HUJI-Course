@@ -20,7 +20,7 @@ public class DictionaryIndexer extends Aindexer<DictionarySearch> {
 
 	/**
 	 * Basic constructor, sets origin Corpus and initializes backing hashmap
-	 * @param origin    the Corpus to be indexed by this DS.
+	 * @param origin - the Corpus to be indexed by this DS.
 	 */
 	public DictionaryIndexer(Corpus origin) {
 		super(origin);
@@ -29,9 +29,6 @@ public class DictionaryIndexer extends Aindexer<DictionarySearch> {
 
 	@Override
 	protected void readIndexedFile() throws WrongMD5ChecksumException, FileNotFoundException {
-	
-
-
 
 	}
 	@Override

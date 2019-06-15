@@ -37,7 +37,6 @@ public class Test {
 
     public static void TestCorpus ( ) {
         String [] args =  new String[] { "./Config Files/movies.conf" };
-
         try {
             Scanner scanner = new Scanner(new File( args[0] ));
 
@@ -46,7 +45,8 @@ public class Test {
             Corpus corpus = new Corpus(scanner.nextLine(), ""  );
 
             for (Entry entry : corpus ){
-                System.out.println(entry.toString());
+                //System.out.println(entry.toString());
+                System.out.println("i was here");
                 for (Block block : entry)
                     System.out.println( block );
             }
@@ -61,10 +61,8 @@ public class Test {
 
 
 
-    public static void main(String[] args) {
-
-
-        TestBlocks();
+    public static void main(String[] args) { 
+        //TestBlocks();
         TestCorpus();
 
 

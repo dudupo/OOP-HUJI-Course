@@ -7,7 +7,8 @@ import processing.searchStrategies.NaiveSearchRK;
 import processing.textStructure.Corpus;
 
 /**
- * A "naive" indexer. This approach forgoes actually preprocessing the file, and simply loads the text and searches directly on it.
+ * A "naive" indexer. This approach forgoes actually preprocessing the file,
+ * and simply loads the text and searches directly on it.
  */
 public class NaiveIndexer extends Aindexer<NaiveSearch> {
 
@@ -16,8 +17,8 @@ public class NaiveIndexer extends Aindexer<NaiveSearch> {
 
 	/**
 	 * Basic constructor
-	 * @param corpus    The corpus to search over
-	 * @param RK        Whether or not to use Rabin-Karp search strategy
+	 * @param corpus - The corpus to search over
+	 * @param RK - Whether or not to use Rabin-Karp search strategy
 	 */
 	public NaiveIndexer(Corpus corpus, boolean RK){
 		super(corpus);

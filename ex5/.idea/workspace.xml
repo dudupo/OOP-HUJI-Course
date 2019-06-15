@@ -2,8 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0e0f37-6edf-4c8d-960d-7f1c39405152" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Config Files/movies.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Config Files/simple.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Movies/StarTrek_Movie_TMP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Movies/StarTrek_Movie_TWOK.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Simple/simple1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Simple/simple2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/TV/StarTrek_TV_Episode1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/TV/StarTrek_TV_Episode8.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Config Files/movies.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Config Files/movies.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Config Files/simple.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Config Files/simple.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Corpuses/Movies/StarTrek_Movie_TMP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Corpuses/Movies/StarTrek_Movie_TMP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Corpuses/Movies/StarTrek_Movie_TWOK.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Corpuses/Movies/StarTrek_Movie_TWOK.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Corpuses/Simple/simple1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Corpuses/Simple/simple1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Corpuses/Simple/simple2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Corpuses/Simple/simple2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Corpuses/TV/StarTrek_TV_Episode1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Corpuses/TV/StarTrek_TV_Episode1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/Corpuses/TV/StarTrek_TV_Episode8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/Corpuses/TV/StarTrek_TV_Episode8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/out/production/ex6/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/out/production/ex6/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/out/production/ex6/dataStructures/Aindexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/out/production/ex6/dataStructures/Aindexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/out/production/ex6/dataStructures/dictionary/DictionaryIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/out/production/ex6/dataStructures/dictionary/DictionaryIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/out/production/ex6/dataStructures/naive/NaiveIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/out/production/ex6/dataStructures/naive/NaiveIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/out/production/ex6/processing/searchStrategies/NaiveSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/out/production/ex6/processing/searchStrategies/NaiveSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/out/production/ex6/processing/textStructure/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/out/production/ex6/processing/textStructure/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/TextSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/TextSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/Aindexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/Aindexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/dictionary/DictionaryIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/dictionary/DictionaryIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/naive/NaiveIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/naive/NaiveIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/naive/NaiveIndexerRK.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/naive/NaiveIndexerRK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/EdgeBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/EdgeBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/GeneralizedSuffixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/GeneralizedSuffixTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/dataStructures/suffixtree/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/IparsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/IparsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/STmovieParsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/STmovieParsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/STtvSeriesParsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/STtvSeriesParsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/SimpleParsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/parsingRules/SimpleParsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/DictionarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/DictionarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/IsearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/IsearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/NaiveSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/NaiveSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/NaiveSearchRK.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/searchStrategies/NaiveSearchRK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Corpus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Corpus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/textStructure/MultiWordResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/textStructure/MultiWordResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/textStructure/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/processing/textStructure/WordResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/processing/textStructure/WordResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/utils/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/utils/Stemmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/utils/Stemmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/utils/Stopwords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/utils/Stopwords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6/src/utils/WrongMD5ChecksumException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6/src/utils/WrongMD5ChecksumException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/TextSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/Aindexer$IndexTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/Aindexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/dictionary/DictionaryIndexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/naive/NaiveIndexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/naive/NaiveIndexerRK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/EdgeBag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/GeneralizedSuffixTree$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/GeneralizedSuffixTree$ResultInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/GeneralizedSuffixTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/IparsingRule$ParserTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/IparsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/STmovieParsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/STtvSeriesParsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/SimpleParsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/DictionarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/IsearchStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/NaiveSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/NaiveSearchRK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Corpus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/MultiWordResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/WordResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/Stemmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/Stopwords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/WrongMD5ChecksumException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/TextSearcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/Aindexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/dictionary/DictionaryIndexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/naive/NaiveIndexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/naive/NaiveIndexerRK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/EdgeBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/GeneralizedSuffixTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/IparsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/STmovieParsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/STtvSeriesParsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/SimpleParsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/DictionarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/IsearchStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/NaiveSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/NaiveSearchRK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Corpus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/MultiWordResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/WordResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/Stemmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/Stopwords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/WrongMD5ChecksumException.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -526,6 +642,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23616473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

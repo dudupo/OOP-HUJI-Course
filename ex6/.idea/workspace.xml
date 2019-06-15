@@ -2,8 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c13c98-7fd2-4087-bff7-9e1f4b77ab71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Config Files/movies.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Config Files/simple.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Movies/StarTrek_Movie_TMP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Movies/StarTrek_Movie_TWOK.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Simple/simple1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/Simple/simple2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/TV/StarTrek_TV_Episode1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corpuses/TV/StarTrek_TV_Episode8.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config Files/movies.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Config Files/movies.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config Files/simple.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Config Files/simple.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corpuses/Movies/StarTrek_Movie_TMP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Corpuses/Movies/StarTrek_Movie_TMP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corpuses/Movies/StarTrek_Movie_TWOK.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Corpuses/Movies/StarTrek_Movie_TWOK.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corpuses/Simple/simple1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Corpuses/Simple/simple1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corpuses/Simple/simple2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Corpuses/Simple/simple2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corpuses/TV/StarTrek_TV_Episode1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Corpuses/TV/StarTrek_TV_Episode1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corpuses/TV/StarTrek_TV_Episode8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Corpuses/TV/StarTrek_TV_Episode8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/Aindexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/Aindexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/dictionary/DictionaryIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/dictionary/DictionaryIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexerRK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexerRK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/suffixtree/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/suffixtree/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/suffixtree/EdgeBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/suffixtree/EdgeBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/suffixtree/GeneralizedSuffixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/suffixtree/GeneralizedSuffixTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/suffixtree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/suffixtree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/suffixtree/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/suffixtree/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/parsingRules/IparsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/parsingRules/IparsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/parsingRules/STmovieParsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/parsingRules/STmovieParsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/parsingRules/STtvSeriesParsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/parsingRules/STtvSeriesParsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/parsingRules/SimpleParsingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/parsingRules/SimpleParsingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/searchStrategies/DictionarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/searchStrategies/DictionarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/searchStrategies/IsearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/searchStrategies/IsearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/searchStrategies/NaiveSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/searchStrategies/NaiveSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/searchStrategies/NaiveSearchRK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/searchStrategies/NaiveSearchRK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/textStructure/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/textStructure/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/textStructure/Corpus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/textStructure/Corpus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/textStructure/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/textStructure/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/textStructure/MultiWordResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/textStructure/MultiWordResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/textStructure/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/textStructure/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing/textStructure/WordResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/textStructure/WordResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Stemmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Stemmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Stopwords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Stopwords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/WrongMD5ChecksumException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/WrongMD5ChecksumException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/TextSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/Aindexer$IndexTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/Aindexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/dictionary/DictionaryIndexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/naive/NaiveIndexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/naive/NaiveIndexerRK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/EdgeBag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/GeneralizedSuffixTree$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/GeneralizedSuffixTree$ResultInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/GeneralizedSuffixTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/dataStructures/suffixtree/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/IparsingRule$ParserTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/IparsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/STmovieParsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/STtvSeriesParsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/parsingRules/SimpleParsingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/DictionarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/IsearchStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/NaiveSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/searchStrategies/NaiveSearchRK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Corpus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/MultiWordResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/processing/textStructure/WordResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/Stemmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/Stopwords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ex6/utils/WrongMD5ChecksumException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/TextSearcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/Aindexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/dictionary/DictionaryIndexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/naive/NaiveIndexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/naive/NaiveIndexerRK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/EdgeBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/GeneralizedSuffixTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/dataStructures/suffixtree/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/IparsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/STmovieParsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/STtvSeriesParsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/parsingRules/SimpleParsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/DictionarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/IsearchStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/NaiveSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/searchStrategies/NaiveSearchRK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Corpus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/MultiWordResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/processing/textStructure/WordResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/Stemmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/Stopwords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/WrongMD5ChecksumException.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,55 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/SimpleParsingRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="357">
               <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/STmovieParsingRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-              <folding>
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/STtvSeriesParsingRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-              <folding>
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processing/textStructure/MultiWordResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding>
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Corpus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="630">
               <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="e#1763#1764#0" expanded="true" />
@@ -102,14 +165,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Word.java">
+        <entry file="file://$PROJECT_DIR$/Config Files/movies.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-              <folding>
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/IparsingRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -117,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
+            <state relative-caret-position="-378">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="e#925#926#0" expanded="true" />
@@ -133,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="237">
+              <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,15 +220,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="-3">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dataStructures/Aindexer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
@@ -159,6 +241,8 @@
               <folding>
                 <element signature="e#2136#2137#0" expanded="true" />
                 <element signature="e#2175#2176#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+                <element signature="e#2702#2703#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,11 +274,11 @@
         <option value="$PROJECT_DIR$/src/dataStructures/dictionary/DictionaryIndexer.java" />
         <option value="$PROJECT_DIR$/src/dataStructures/Aindexer.java" />
         <option value="$PROJECT_DIR$/src/TextSearcher.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/processing/parsingRules/SimpleParsingRule.java" />
         <option value="$PROJECT_DIR$/src/processing/textStructure/Corpus.java" />
-        <option value="$PROJECT_DIR$/src/processing/textStructure/Entry.java" />
         <option value="$PROJECT_DIR$/src/processing/textStructure/Block.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/processing/textStructure/Entry.java" />
       </list>
     </option>
   </component>
@@ -218,6 +302,38 @@
             <path>
               <item name="ex6" type="b2602c69:ProjectViewProjectNode" />
               <item name="ex6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+              <item name="parsingRules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+              <item name="searchStrategies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ex6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+              <item name="textStructure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,15 +398,25 @@
       <option name="presentableId" value="Default" />
       <updated>1560365756362</updated>
       <workItem from="1560365759415" duration="983000" />
-      <workItem from="1560542260407" duration="15421000" />
+      <workItem from="1560542260407" duration="16470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16404000" />
+    <option name="totallyTimeSpent" value="17453000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18661518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -306,11 +432,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928476" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32928476" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32928476" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/IparsingRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/RandomAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -520,24 +639,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Config Files/simple.conf">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config Files/movies.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/processing/textStructure/MultiWordResult.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -560,39 +661,6 @@
             <element signature="e#1377#1378#0" expanded="true" />
             <element signature="e#1416#1417#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Corpus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/SimpleParsingRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -624,23 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataStructures/Aindexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -648,7 +699,83 @@
           <folding>
             <element signature="e#2136#2137#0" expanded="true" />
             <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructures/naive/NaiveIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config Files/movies.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Corpus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/IparsingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processing/parsingRules/SimpleParsingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processing/textStructure/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

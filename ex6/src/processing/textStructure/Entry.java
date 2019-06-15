@@ -1,7 +1,6 @@
 package processing.textStructure;
 
 import processing.parsingRules.IparsingRule;
-
 import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
 import java.io.Serializable;
@@ -25,6 +24,7 @@ public class Entry implements Iterable<Block>, Serializable {
 			System.out.println(filePath);
 			this.blocks = parseRule.parseFile(
 					new RandomAccessFile( filePath,"r"));
+			System.out.println("i was here");
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
